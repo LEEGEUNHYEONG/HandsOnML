@@ -25,10 +25,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2/2.3.2.py">
+        <entry file="file://$PROJECT_DIR$/2/2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            <state relative-caret-position="289">
+              <caret line="362" column="60" selection-start-line="362" selection-start-column="60" selection-end-line="362" selection-end-column="60" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -39,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="198">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -54,6 +54,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>strat_train_set</find>
+      <find>CategoricalEncoder</find>
+      <find>OrdinalEncode</find>
+      <find>FeatureUnion</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -62,13 +70,19 @@
       <list>
         <option value="$PROJECT_DIR$/2/2.3.2.py" />
         <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/2/2.3.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
+    <option name="x" value="1608" />
     <option name="width" value="1644" />
     <option name="height" value="2092" />
   </component>
@@ -85,6 +99,11 @@
               <item name="HandsOnML" type="b2602c69:ProjectViewProjectNode" />
               <item name="HandsOnML" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="HandsOnML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HandsOnML" type="462c0819:PsiDirectoryNode" />
+              <item name="2" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -97,7 +116,16 @@
     <property name="ignore_missing_gitignore" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="Console" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="HandsOnML" is-module-sdk="true">
+        <option name="useSoftWraps" value="true" />
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="HandsOnML" />
+      </console-settings>
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -112,6 +140,28 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration name="2.3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="HandsOnML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Project\HandsOnML\2\2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="HandsOnML" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -134,6 +184,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.2.3" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -146,18 +201,21 @@
       <option name="presentableId" value="Default" />
       <updated>1557987544337</updated>
       <workItem from="1557987546314" duration="2138000" />
-      <workItem from="1557989805104" duration="96000" />
+      <workItem from="1557989805104" duration="3778000" />
+      <workItem from="1558010846673" duration="63000" />
+      <workItem from="1558069653944" duration="8256000" />
+      <workItem from="1558078299712" duration="30000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2234000" />
+    <option name="totallyTimeSpent" value="14265000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1633" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25269842" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19111112" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -172,17 +230,22 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.5932755" />
+      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.4182015" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.495873" />
       <window_info anchor="right" x="0" y="0" width="358" height="853" id="Documentation" order="4" sideWeight="0.50161815" side_tool="true" weight="0.3295238" />
       <window_info anchor="right" id="Database" order="5" sideWeight="0.49838188" weight="0.3295238" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/datasets/housing/housing.tgz" />
@@ -196,10 +259,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2/2.3.2.py">
+    <entry file="file://$PROJECT_DIR$/2/2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        <state relative-caret-position="289">
+          <caret line="362" column="60" selection-start-line="362" selection-start-column="60" selection-end-line="362" selection-end-column="60" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -208,10 +271,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="198">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
