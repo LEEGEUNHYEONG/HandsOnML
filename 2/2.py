@@ -6,7 +6,7 @@ from six.moves import urllib
 # %% 2.3.2 데이터셋 다운로드
 download_root = "https://raw.githubusercontent.com/ageron/handson-ml/master/"
 housing_path = os.path.join("datasets", "housing")
-housing_url = download_root + "datasets/housing/housing.tgz"
+housing_url = download_root + "2/datasets/housing/housing.tgz"
 
 
 def fetch_housing_data(housing_url=housing_url, housing_path=housing_path):
