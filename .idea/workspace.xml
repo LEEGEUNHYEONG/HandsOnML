@@ -48,7 +48,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/5/5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
+            <state relative-caret-position="1062">
               <caret line="60" column="10" selection-start-line="46" selection-end-line="60" selection-end-column="10" />
               <folding>
                 <element signature="e#5#36#0" expanded="true" />
@@ -57,11 +57,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/6/6.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
               <caret line="42" selection-start-line="42" selection-end-line="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/7/7.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="291" lean-forward="true" selection-start-line="291" selection-end-line="291" />
+              <folding>
+                <element signature="e#5#44#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,6 +95,7 @@
       <find>FeatureUnion</find>
       <find>plt</find>
       <find>x_train</find>
+      <find>BaggingClassifier</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -100,6 +113,7 @@
         <option value="$PROJECT_DIR$/4/4.py" />
         <option value="$PROJECT_DIR$/5/5.py" />
         <option value="$PROJECT_DIR$/6/6.py" />
+        <option value="$PROJECT_DIR$/7/7.py" />
       </list>
     </option>
   </component>
@@ -111,7 +125,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-12" />
-    <option name="width" value="1980" />
+    <option name="width" value="1818" />
     <option name="height" value="2092" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -130,7 +144,7 @@
             <path>
               <item name="HandsOnML" type="b2602c69:ProjectViewProjectNode" />
               <item name="HandsOnML" type="462c0819:PsiDirectoryNode" />
-              <item name="6" type="462c0819:PsiDirectoryNode" />
+              <item name="7" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -292,16 +306,17 @@
       <workItem from="1564833209337" duration="2134000" />
       <workItem from="1564838660372" duration="4676000" />
       <workItem from="1564900137688" duration="3448000" />
+      <workItem from="1564921531651" duration="6565000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31013000" />
+    <option name="totallyTimeSpent" value="37578000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1633" height="1053" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0944832" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09575143" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -316,11 +331,11 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.41774893" />
+      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.41774893" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.3376744" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.33645955" />
       <window_info anchor="right" x="0" y="0" width="358" height="853" id="Documentation" order="4" sideWeight="0.50161815" side_tool="true" weight="0.3295238" />
       <window_info anchor="right" id="Database" order="5" sideWeight="0.49838188" weight="0.3295238" />
     </layout>
@@ -391,19 +406,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="30" lean-forward="true" selection-end-column="40" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/5/5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
+        <state relative-caret-position="1062">
           <caret line="60" column="10" selection-start-line="46" selection-end-line="60" selection-end-column="10" />
           <folding>
             <element signature="e#5#36#0" expanded="true" />
@@ -415,6 +420,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="30" lean-forward="true" selection-end-column="40" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7/7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="291" lean-forward="true" selection-start-line="291" selection-end-line="291" />
+          <folding>
+            <element signature="e#5#44#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
